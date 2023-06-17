@@ -1,6 +1,10 @@
+body {
+    font-family:'Courier New', Courier;
+}
+
 header {
     background-color: #EA906C;
-    font-family:arial;
+    font-family:'Courier New', Courier;
     font-weight:bold;
     text-align:center;
     color:blanchedalmond;
@@ -32,6 +36,16 @@ button:active {
     background-color: rgb(24, 88, 207)
 }
 
+input {
+    outline: none;
+    font-size: 18px;
+    font-family:'Trebuchet MS';
+    font-weight:bold;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid #B31312;
+}
+
 
 .InputSection {
     display: flex;
@@ -42,33 +56,23 @@ button:active {
     display: flex;
     flex-direction: row;
     align-self: center;
+
 }
 
 #buttons:focus {
     background-color:antiquewhite;
 }
 
-#InputField {
-    outline: none;
-    font-size: 18px;
-    border-radius: 8px;
-    padding: 10px;
-    border: solid #B31312;
-}
-
 #inputField:hover {
     border: solid yellow;
 }
 
-#InputField2 {
-    outline: none;
-    font-size: 18px;
-    border-radius: 8px;
-    padding: 10px;
-    border: solid gold
-}
-
 #inputField2:focus {
-    border: solid yellow;
+    border: solid #B31312;
 }
 
+.copyrights{
+    text-align:left;
+    background-color:#EA906C;
+    color:#EEE2DE;
+}
