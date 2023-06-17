@@ -1,0 +1,57 @@
+header {
+    background-color:goldenrod;
+    font-family:arial;
+    font-weight:bold;
+    text-align:center;
+    color:blanchedalmond;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: rgb(62, 113, 208)
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: rgb(24, 88, 207)
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+#buttons:focus {
+    background-color:antiquewhite;
+}
+
+#InputField {
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid gold
+}
+
+#inputField:focus {
+    border: solid yellow;
+}
