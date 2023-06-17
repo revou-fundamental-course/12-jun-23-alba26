@@ -1,39 +1,43 @@
 body {
     font-family:'Courier New', Courier;
+    background-color: #EEE2DE;
 }
 
-header {
-    background-color: #EA906C;
+.header {
+    background-color: ;
     font-family:'Courier New', Courier;
     font-weight:bold;
-    text-align:center;
-    color:blanchedalmond;
-    border-radius: 5px;
+    text-align:left;
+    color:black;
 }
 
-label {
+.label1 {
     font-size: 18px;
     font-weight: bold;
     font-family:'Courier New', Courier;
     background-color: #EEE2DE;
     }
-}
+
 
 button {
     padding: 10px 20px;
     border-radius: 5px;
-    background-color:cornflowerblue;
+    color:solid #F3E8FF;
     cursor: pointer;
     border: none;
+    height: 30px;
+    width: 100px;
+    text-align:center;
+    font-family:'Courier New';
 }
 
-button:hover {
-    background: rgb(62, 113, 208)
+#buttons:focus {
+    background:solid #bebbc2;
 }
 
 button:active {
     transform: translateY(1px);
-    background-color: rgb(24, 88, 207)
+    background-color: #c4beca;
 }
 
 input {
@@ -44,6 +48,7 @@ input {
     border-radius: 8px;
     padding: 10px;
     border: solid #B31312;
+    height:50px;
 }
 
 
@@ -52,27 +57,17 @@ input {
     flex-direction: column;
 }
 
+#cara {
+    
+}
+
 #buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-self: center;
-
-}
-
-#buttons:focus {
-    background-color:antiquewhite;
-}
-
-#inputField:hover {
-    border: solid yellow;
-}
-
-#inputField2:focus {
-    border: solid #B31312;
 }
 
 .copyrights{
     text-align:left;
-    background-color:#EA906C;
-    color:#EEE2DE;
+    color:black;
 }
