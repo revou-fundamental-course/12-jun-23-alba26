@@ -1,5 +1,5 @@
 header {
-    background-color:goldenrod;
+    background-color: #EA906C;
     font-family:arial;
     font-weight:bold;
     text-align:center;
@@ -10,11 +10,9 @@ header {
 label {
     font-size: 18px;
     font-weight: bold;
-}
-
-.InputSection {
-    display: flex;
-    flex-direction: column;
+    font-family:'Courier New', Courier;
+    background-color: #EEE2DE;
+    }
 }
 
 button {
@@ -34,6 +32,12 @@ button:active {
     background-color: rgb(24, 88, 207)
 }
 
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
 #buttons {
     display: flex;
     flex-direction: row;
@@ -49,9 +53,22 @@ button:active {
     font-size: 18px;
     border-radius: 8px;
     padding: 10px;
+    border: solid #B31312;
+}
+
+#inputField:hover {
+    border: solid yellow;
+}
+
+#InputField2 {
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
     border: solid gold
 }
 
-#inputField:focus {
+#inputField2:focus {
     border: solid yellow;
 }
+
