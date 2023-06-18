@@ -9,6 +9,7 @@ body {
 .header {
     background-color: #5D5B6A ;
     font-family:'Courier New', Courier;
+    font-size:larger;
     font-weight:bold;
     text-align:left;
     padding: 50px;
@@ -19,7 +20,7 @@ body {
     font-weight: bold;
     font-family:'Courier New', Courier;
     background-color: ;
-    color: black;
+    color: #a4acad;
     }
 
 
@@ -60,14 +61,23 @@ input {
 
 .InputSection {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-right:1200px;
+}
+
+.kalkulasi {
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+    background-color: #54535e;
 }
 
 .rumus {
     background-color:#5D5B6A;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction:column;
+    text-align: left;
 }
 
 #buttons {
@@ -78,6 +88,8 @@ input {
 }
 
 .copyrights{
+    padding: 20px;
     text-align:left;
-    color:black;
+    color:#a4acad;
+    background-color:#5D5B6A;
 }
