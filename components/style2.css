@@ -3,7 +3,8 @@ body {
     background-color: #EEE3CB;
     color: #a4acad;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    padding-top: 200px;
 }
 
 .header {
@@ -62,7 +63,6 @@ input {
 .InputSection {
     display: flex;
     flex-direction: row;
-    padding-right:1200px;
 }
 
 .kalkulasi {
