@@ -4,9 +4,10 @@ body {
     color: #a4acad;
     display:flex;
     flex-direction:row;
-    height:720px;
-    margin:0px 20px;
-    
+    height:580px;
+    margin:50px 20px;
+    border-radius: 45px;
+    background-image: url('https://images.pexels.com/photos/225011/pexels-photo-225011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 
 .header {
@@ -16,6 +17,7 @@ body {
     font-weight:bold;
     text-align:initial;
     padding: 50px;
+    background-image: url('https://images.pexels.com/photos/4344320/pexels-photo-4344320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 
 .label1 {
@@ -59,6 +61,7 @@ input {
     border: solid #5D5B6A;
     height:50px;
     cursor: pointer;
+    background-color:#85827d;
 }
 
 
@@ -66,17 +69,17 @@ input {
     display: flex;
     flex-direction: row;
     margin: 20px;
+    background-image:url('https://images.pexels.com/photos/8471854/pexels-photo-8471854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 
 .kalkulasi {
     display:flex;
     flex-direction:column;
     padding: 30px;
-    background-color: #54535e;
 }
 
-.rumus {
-    background-color:#5D5B6A;
+#rumus {
+    background-image: url('htt://images.pexels.com/photos/5185093/pexels-photo-5185093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     padding: 30px;
     display: flex;
     flex-direction:column;
@@ -95,4 +98,5 @@ input {
     text-align:left;
     color:#a4acad;
     background-color:#5D5B6A;
+    background-image: url('https://images.pexels.com/photos/63437/pexels-photo-63437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
 }
