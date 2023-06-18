@@ -4,7 +4,9 @@ body {
     color: #a4acad;
     display:flex;
     flex-direction:row;
-    padding-top: 200px;
+    height:720px;
+    margin:0px 20px;
+    
 }
 
 .header {
@@ -12,7 +14,7 @@ body {
     font-family:'Courier New', Courier;
     font-size:larger;
     font-weight:bold;
-    text-align:left;
+    text-align:initial;
     padding: 50px;
 }
 
@@ -63,6 +65,7 @@ input {
 .InputSection {
     display: flex;
     flex-direction: row;
+    margin: 20px;
 }
 
 .kalkulasi {
