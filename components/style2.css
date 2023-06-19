@@ -1,5 +1,5 @@
 body {
-    font-family:'Courier New', Courier;
+    font-family:monospace;
     background-color: #EEE3CB;
     color: #fdfdfd;
     display:flex;
@@ -12,7 +12,6 @@ body {
 
 .header {
     background-color: #5D5B6A ;
-    font-family:'Courier New', Courier;
     font-size:larger;
     font-weight:bold;
     text-align:initial;
@@ -23,10 +22,9 @@ body {
 .label1 {
     font-size: 18px;
     font-weight: bold;
-    font-family:'Courier New', Courier;
     background-color: ;
     color: #ffffff;
-    }
+}
 
 
 button {
@@ -80,11 +78,12 @@ input {
 }
 
 #rumus {
-    background-image: url('htt://images.pexels.com/photos/5185093/pexels-photo-5185093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    font-size:larger;
     padding: 30px;
     display: flex;
     flex-direction:column;
     text-align: left;
+    text-shadow: 5px;
 }
 
 #buttons {
@@ -94,10 +93,10 @@ input {
     background-color: solid #CFB495;
 }
 
-.copyrights{
+.copyrights {
     padding: 20px;
     text-align:left;
-    color:#000000;
-    background-color:#5D5B6A;
-    background-image: url('https://images.pexels.com/photos/4323815/pexels-photo-4323815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+    color:#ffffff;
+    font-family:'Courier New';
+    background-image: url('https://media.istockphoto.com/id/1253876023/id/foto/percikan-api-dan-abu-naik-di-langit-malam-dari-api-unggun.jpg?s=612x612&w=0&k=20&c=Lb_cHJjVCaWvzqH7PjoGp3dwauCcWitDBflgudzu68E=')
 }
