@@ -30,7 +30,7 @@ body {
 button {
     padding: 10px 20px;
     border-radius: 5px;
-    color:solid #CFB495;
+    background-color:solid #c2bcbc;;
     cursor: pointer;
     border: none;
     height: 30px;
@@ -38,6 +38,7 @@ button {
     text-align:center;
     font-family:'Courier New';
     font-weight: bold;
+    margin: 5px;
 }
 
 #buttons:focus {
@@ -59,7 +60,8 @@ input {
     border: none;
     height:50px;
     cursor: pointer;
-    background-color:#ffffff;
+    background-color:#c2bcbc;
+    width: 650px;
 }
 
 
@@ -67,6 +69,7 @@ input {
     display: flex;
     flex-direction: row;
     margin-top: 80px;
+    width: 75%;
     background-color:#04005;
     background-image:url('https://pexels.com/photos/1125265/pexels-photo-1125265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
@@ -79,7 +82,7 @@ input {
 
 #rumus {
     font-size:larger;
-    padding: 30px;
+    margin: 50px;
     display: flex;
     flex-direction:column;
     text-align: left;
@@ -95,8 +98,14 @@ input {
 
 .copyrights {
     padding: 20px;
-    text-align:left;
+    text-align:center;
     color:#ffffff;
     font-family:'Courier New';
     background-image: url('https://media.istockphoto.com/id/1253876023/id/foto/percikan-api-dan-abu-naik-di-langit-malam-dari-api-unggun.jpg?s=612x612&w=0&k=20&c=Lb_cHJjVCaWvzqH7PjoGp3dwauCcWitDBflgudzu68E=')
+}
+
+.github {
+    text-align:left; 
+    font-weight:bolder;
+    margin-top: 45%;
 }
